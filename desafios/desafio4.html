@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <title>Desafio 4</title>
+</head>
+<body>
+  <div style="display: flex; flex-direction: column; font-family: 'Open Sans', sans-serif; color: #fff;background-color: rgb(153, 153, 153); padding-bottom: 10px; padding-left: 10px;">
+    <h1>Desafio de TypeScript da DIO</h1>
+    <div style="display: flex; width: 300px; height: 120px; justify-content: space-between; flex-direction: column; padding-top: 10px;">
+        <input id="login" placeholder="Login" onchange="preencherLogin(event)">
+        <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+        <input id="api-key" placeholder="Api Key" onchange="preencherApi()">
+        <button id="login-button" disabled>Login</button>
+    </div>
+    <div id="search-container" style=" padding-top: 10px;">
+        <input id="search" placeholder="Escreva...">
+        <button id="search-button">Pesquisar Filme</button>
+    </div>
+    
+  </div>
+</body>
+</html>
