@@ -1,2 +1,6 @@
-# desafio-de-projeto-typescript-dio
-Desafio de Projeto da Dio sobre TypeScript
+# DESAFIO DE TYPESCRIPT DA DIO
+
+## Projeto de TypeScript
+
+* Aulas praticas de TypeScript com os desafios propostos resolvidos.
+
